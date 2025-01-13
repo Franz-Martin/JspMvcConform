@@ -12,7 +12,7 @@
 <jsp:useBean id="person" class="com.ibb.model.Person" scope="page" />
 <jsp:setProperty name="person" property="" />
 <jsp:setProperty name="webCtrl" property="" />
-<%
+<%--
     if (person==null){
     Person person=new Person();
     }else{
@@ -25,7 +25,7 @@
     
     
     
-  %>  
+ --%> 
 
 
 <!DOCTYPE html>
