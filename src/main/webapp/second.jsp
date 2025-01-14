@@ -14,13 +14,13 @@
 <jsp:setProperty name="webCtrl" property="" />
 <%--
     if (person==null){
-    Person person=new Person();
+       Person person=new Person();
     }else{
     
-    person=this.person;
+        Person person=this.person;
     }
     
-    person.setFirstname(request.getParameter("firstname"));
+     person.setFirstname(request.getParameter("firstname"));
      person.setLastname(request.getParameter("lastname"));
     
     
